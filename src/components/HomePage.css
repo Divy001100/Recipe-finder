@@ -53,4 +53,21 @@
   .secondary-btn:hover {
     background-color: #fff7ed;
   }
+  .homepage-footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .homepage-footer a {
+    color: #facc15;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .homepage-footer a:hover {
+    text-decoration: underline;
+    color: #ffe066;
+  }
   

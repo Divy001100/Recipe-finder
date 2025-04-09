@@ -12,6 +12,17 @@ export default function HomePage() {
         <Link to="/recipe" className="btn primary-btn">Browse Recipes</Link>
         <Link to="/recipe/saved" className="btn secondary-btn">My Favorites</Link>
       </div>
+
+      <footer className="homepage-footer">
+        Designed & Developed by <strong>Divyanshu Singh</strong> &nbsp;|&nbsp;
+        <a
+          href="https://github.com/Divy001100?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          See More Projects
+        </a>
+      </footer>
     </div>
   );
 }
